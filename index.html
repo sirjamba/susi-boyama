@@ -646,11 +646,12 @@ function loadPage(id){
   const img=new Image();
   img.onload=()=>{
     setSize(img.naturalWidth,img.naturalHeight);fit();
-    const t=mk(W,H),tc=t.getContext('2d');
-    tc.drawImage(img,0,0,W,H);
+    const tc=tmpCv.getContext('2d');
+    tc.setTransform(1,0,0,1,0,0);tc.globalCompositeOperation='source-over';tc.globalAlpha=1;
+    tc.clearRect(0,0,W,H);tc.drawImage(img,0,0,W,H);
     const d=tc.getImageData(0,0,W,H).data,out=lc.createImageData(W,H),o=out.data,bar=new Uint8Array(W*H);
     for(let i=0,p=0;i<bar.length;i++,p+=4){const l=d[p];o[p+3]=255-l;bar[i]=l<235?1:0}
-    lc.putImageData(out,0,0);
+    lc.putImageData(out,0,0);tc.clearRect(0,0,W,H);
     cur.bar=bar;cur.kids=islands(bar);cur.ready=true;resetView();startDiff(id);renderNames(id);if(!introOn)showCap(id);
     pc.clearRect(0,0,W,H);undoStack=[];
     if(art[id]){const a=new Image();a.onload=()=>pc.drawImage(a,0,0);a.src=art[id]}
@@ -661,17 +662,18 @@ function loadPage(id){
 function saveArt(){
   if(!cur.id||!cur.ready)return;
   art[cur.id]=paint.toDataURL('image/png');
-  const tw=W>H?386:273,th=Math.round(tw*H/W),t=mk(tw,th),g=t.getContext('2d');
+  const tw=W>H?386:273,th=Math.round(tw*H/W),t=thumbCv;t.width=tw;t.height=th;const g=t.getContext('2d');
   g.fillStyle='#fff';g.fillRect(0,0,tw,th);
   g.drawImage(paint,0,0,tw,th);g.drawImage(lines,0,0,tw,th);
   thumbs[cur.id]=t.toDataURL('image/jpeg',.8);
   if(cur.id==='k11'){
-    const f=mk(W,H),fg2=f.getContext('2d');fg2.fillStyle='#fff';fg2.fillRect(0,0,W,H);fg2.drawImage(paint,0,0);fg2.drawImage(lines,0,0);
-    lastFinal=f.toDataURL('image/jpeg',.82);
+    const f=tmpCv,fg2=f.getContext('2d');fg2.setTransform(1,0,0,1,0,0);fg2.globalCompositeOperation='source-over';fg2.globalAlpha=1;
+    fg2.fillStyle='#fff';fg2.fillRect(0,0,W,H);fg2.drawImage(paint,0,0);fg2.drawImage(lines,0,0);
+    lastFinal=f.toDataURL('image/jpeg',.82);fg2.clearRect(0,0,W,H);
     if(S.storyDone){S.cover=lastFinal;save()}
   }
 }
-let lastFinal=null;
+let lastFinal=null;const thumbCv=mk(10,10);
 function pushUndo(){undoStack.push(pc.getImageData(0,0,W,H));if(undoStack.length>8)undoStack.shift()}
 function doUndo(){const s=undoStack.pop();if(s)pc.putImageData(s,0,0)}
 
