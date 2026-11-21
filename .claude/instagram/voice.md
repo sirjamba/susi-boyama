@@ -1,67 +1,68 @@
-# voice.md
+# voice.md — Tabledot Urban Canteen (MotherShip) / Kitchen Guerilla
 
-Copy this to `~/.claude/instagram/voice.md` and fill it in. Every skill in the
-pack reads it. Ten minutes here is the difference between scripts you shoot and
-scripts you rewrite.
-
-If you would rather not fill it in by hand, send Claude three of your own reels
-or captions and say "write my voice.md from these". That works better than
-guessing at the answers.
-
-This file matters more on Instagram than anywhere else, because you have to say
-the words out loud. A line you would never say is not a draft, it is a retake.
+Kaynak: Notion "Sosyal Medya Agent — Blueprint" sayfası + tarif veritabanları.
+`{{...}}` ile işaretli yerler henüz bilinmiyor; doldurulunca skill'ler daha iyi yazar.
 
 ---
 
 ## Who I am
 
-- **Name:**
-- **Handle:**
-- **What I do, in one sentence:**
-- **Who I am talking to:** (be specific: "photographers charging under $2,000",
-  not "creatives")
-- **What I sell:**
+- **Name:** Tabledot Urban Canteen (MotherShip şubesi), mutfak tarafı: Kitchen Guerilla
+- **Handle:** {{@hesap_adı}}
+- **What I do, in one sentence:** Şehirli bir kantin: pide, lahmacun, salata, içecek ve şarap; menü her hafta değişiyor.
+- **Who I am talking to:** Yakında çalışan / yaşayan, öğlen ve akşamüstü iyi bir şey yemek isteyen şehirliler. {{şehir / semt}}
+- **What I sell:** Haftalık menü (pide + lahmacun ağırlıklı), Early Bird içecek+yemek eşleşmeleri, öğlen şarap + ana yemek. Rezervasyon, gel-al ve Wolt.
 
 ## What I sound like
 
-- **Three of my own reels or captions that sound most like me:** (paste them)
-- **On camera I am:** (fast and loud / dry / calm / funny / deadpan)
-- **Words I actually use:**
-- **Words I would never say out loud:**
-- **Do I swear:** (yes / mild / no)
-- **Emoji in captions:** (never / one, rarely / freely)
-- **Face on camera:** (always / sometimes / faceless)
-- **Voiceover or to-camera:**
-- **Pace:** (words per minute, if you have timed yourself reading a script.
-  `beats.py --wpm` uses this. Most people are between 150 and 200.)
+- **Three of my own reels or captions that sound most like me:** Henüz yok. İlk captionlar yazılıp onaylandıkça buraya eklenecek.
+- **On camera I am:** Konuşma yok. Yazı + yemek görüntüsü. Ton: kısa, net, iştah açan, şehirli.
+- **Words I actually use:** "Sallanır", "Küçük Cumartesi", "Almost Haftasonu", "Haftanın enleri", "Early Bird", "erken gel, yakala", "Hangi gün geliyorsun?"
+- **Words I would never say out loud:** Abartılı reklam dili ("eşsiz lezzet", "muhteşem deneyim", "kaçırmayın!!!"), uzun süslü cümleler.
+- **Do I swear:** no
+- **Emoji in captions:** one, rarely
+- **Face on camera:** faceless (yemek, tabak, ekip elleri, mutfak arkası)
+- **Voiceover or to-camera:** ikisi de değil, ekranda yazı + müzik
+- **Pace:** uygulanmaz (konuşmalı reel yok)
+- **Dil:** {{TR / DE / EN — tek dil mi karışık mı?}}
+- **Brand voice yönü:** {{"street & fun" mı, "premium" mu?}}
 
 ## My positions
 
-Three to five things I believe that some of my audience does not. These are
-where the good reels come from.
-
-1.
-2.
-3.
+1. Öğle yemeği de özel olabilir. Çarşamba öğlen şarap içmek normal ("Küçük Cumartesi").
+2. Menü her hafta değişmeli. Aynı şeyi her gün yemek zorunda değilsin.
+3. Hamur işi bir zanaat. Pide ve lahmacun hamurunu R&D ile, gramajla, deneyerek geliştiriyoruz.
+4. {{dördüncü bir görüş, varsa}}
 
 ## Off limits
 
-- **Topics I do not post about:**
-- **Clients, numbers or names I cannot say publicly:**
-- **Claims I am not allowed to make:** (regulated industry, employer policy, NDA)
+- **Topics I do not post about:** {{}}
+- **Clients, numbers or names I cannot say publicly:** Satış rakamları, tedarikçi isimleri {{teyit et}}
+- **Claims I am not allowed to make:** Sağlık iddiası yok. Alerjen bilgisi menü metninden birebir alınır.
 
 ## Proof I can use
 
-Real numbers, outcomes and stories I am happy to put my name on. The skills will
-never invent one, so if this section is empty, every draft comes back with
-`{{your number}}` in it.
-
--
--
--
+- {{ör. haftada kaç pide çıkıyor}}
+- {{ör. hamur kaç saat dinleniyor}}
+- {{ör. en çok satan ürün}}
 
 ## The ask
 
-- **My keyword CTA, if I use one:** (one word, sayable, no spaces)
-- **What the keyword sends them:**
-- **Where my link goes:**
+- **My keyword CTA, if I use one:** {{yok / ör. MENU}}
+- **What the keyword sends them:** {{haftanın menüsü}}
+- **Where my link goes:** {{rezervasyon / Wolt linki}}
+
+## Haftalık akış (blueprint'ten)
+
+- Günlük: 1 post + 2 story
+- Pazartesi: Haftanın menüsü postu + menüden 2 yeni yemek story'si
+- Salı: "Sallanır" / Early Bird, içecek + yiyecek eşleşmesi
+- Çarşamba: "Küçük Cumartesi", şarap + ana yemek (balık/et/tavuk)
+- Perşembe: "Almost Haftasonu", paylaşılabilir tabaklar / ekip vibe / akşam ritmi
+- Cuma: "Haftanın enleri" (en çok satan 3'lü, ekip favorisi, müşteri yorumu, before/after prep)
+
+## Caption şablonları
+
+- **Ürün:** Hook (1 satır) → Ürün (1 cümle, malzeme/tat) → Neden şimdi → CTA (adres/saat/sipariş) → hashtag
+- **Pairing:** Hook → "X'in asidi + Y'nin yağı" → servis zamanı → CTA
+- **Haftanın menüsü:** Hook → 3–6 madde → "Hangi gün geliyorsun?" → CTA
