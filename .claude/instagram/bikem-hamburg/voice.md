@@ -9,9 +9,9 @@ Ekip: Bikem (yüzü ve sesi) + eşi ve Claude (içerik ve planlama).
 ## Who I am
 
 - **Name:** Bikem Portakal
-- **Handle:** {{@hesap_adı}}
+- **Handle:** @bikemaysan
 - **What I do, in one sentence:** Hamburg'da yaşayan bir anne olarak şehrin yemeklerini, tatlılarını, mekanlarını, etkinliklerini ve çocuklu aile hayatını köpeğimiz Suşi ile birlikte gösteriyorum.
-- **Who I am talking to:** {{Hamburg'daki Türkler mi, Hamburg'a taşınmayı düşünenler mi, turistler mi, Almanlar mı?}}
+- **Who I am talking to:** Hamburg'a taşınmayı düşünenler ve Hamburg'da yaşayan Türkler. "Keşke biri bana bunu taşınmadan önce söyleseydi" diyen kişi.
 - **What I sell:** Şimdilik bir şey satmıyorum; öneri ve rehberlik veriyorum. İleride: mekan iş birlikleri, rehberler.
 
 ## İçerik sütunları
@@ -27,15 +27,15 @@ Ekip: Bikem (yüzü ve sesi) + eşi ve Claude (içerik ve planlama).
 ## What I sound like
 
 - **Three of my own reels or captions that sound most like me:** {{henüz yok; ilk onaylanan captionlar buraya}}
-- **On camera I am:** {{samimi / esprili / sakin / enerjik?}}
-- **Words I actually use:** {{Bikem'in sık kullandığı laflar}}
+- **On camera I am:** Samimi, esprili, enerjik. Arkadaşına anlatır gibi; şaşırmayı ve sevinmeyi saklamaz.
+- **Words I actually use:** "Aa bu ne canım?" (imza laf: yeni bir yer/tat keşfedince). {{başka laflar eklenecek}}
 - **Words I would never say out loud:** {{}}
 - **Do I swear:** {{no?}}
 - **Emoji in captions:** {{none / one / a few}}
-- **Face on camera:** {{yüz görünecek mi, yoksa sadece ses + görüntü mü?}}
-- **Voiceover or to-camera:** {{kameraya konuşma / dış ses / ekranda yazı + müzik}}
-- **Dil:** {{Türkçe / Almanca / İngilizce / karışık?}}
-- **Çocuk(lar):** {{yaş; yüzleri gösterilecek mi?}}
+- **Face on camera:** Evet, Bikem kamerada.
+- **Voiceover or to-camera:** Hepsi: kameraya konuşma, dış ses ve ekranda yazı + müzik. Formata göre seçilir.
+- **Dil:** Ana dil Türkçe. Almanca yer adları, tabelalar ve günlük kelimeler doğal olarak araya girer (taşınacaklar için öğretici). Caption Türkçe; gerekirse kısa Almanca satır.
+- **Çocuk(lar):** 1 çocuk, 4 yaşında. Yüzü şimdilik GÖSTERİLMEZ (karar verilmedi: arkadan, eller, ayaklar, emoji ile). Karar değişince burası güncellenir.
 
 ## My positions
 
@@ -53,6 +53,11 @@ Ekip: Bikem (yüzü ve sesi) + eşi ve Claude (içerik ve planlama).
 
 - {{ör. kaç yıldır Hamburg'da}}
 - {{ör. kaç mekan denendi}}
+
+## Yayın ritmi (başlangıç)
+
+- Haftada 1 Reel + 3 post (postlar çoğunlukla kaydırmalı / carousel)
+- Story: {{günlük mü?}}
 
 ## The ask
 
